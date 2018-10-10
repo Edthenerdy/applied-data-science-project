@@ -13,6 +13,9 @@ Two cities will be analyzed in this work: Toronto and New York City. The borough
   <img src="https://i.imgur.com/MOxxyoY.png" alt="Data Sample">
 </a>
 
+We will focus on the venue category parameter, refining and clustering different categories of venues in major groups that will facilitate the analysis and also make possible the generation of better visualizations.
+
+
 [1] https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
 
 [2] https://ibm.box.com/shared/static/fbpwbovar7lf8p5sgddm06cgipa2rxpe.json
