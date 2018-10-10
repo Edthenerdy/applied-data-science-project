@@ -9,8 +9,8 @@ The main business problem attacked in this work is based on how to determine the
 ## Data:
 Two cities will be analyzed in this work: Toronto and New York City. The boroughs and neighborhoods names and postal information from Toronto are extracted from a Wikipedia article¹, and the same data for New York City is provided by the course in previous assignments in a JSON file². With this information at hands, the Google Geocoder API can be used to extract geographical coordinates of each neighborhood using their names and postcode as input. The coordinates will be utilized for map generation, and as input for the Foursquare API, that will be leveraged to provision venues information for each neighborhood. A sample of the venue data extracted with Foursquare API calls is showed in the picture below.
 
-<a href="https://github.com/munhozpf/Coursera_Capstone/">
-  <img src=" https://i.imgur.com/MOxxyoY.png " alt="Data Sample">
+<a href="https://i.imgur.com/MOxxyoY.png ">
+  <img src="https://i.imgur.com/MOxxyoY.png" alt="Data Sample">
 </a>
 
 [1] https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
