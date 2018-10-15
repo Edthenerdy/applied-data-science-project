@@ -18,3 +18,12 @@ We will focus on the venue category parameter, refining and clustering different
 [1] https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
 
 [2] https://ibm.box.com/shared/static/fbpwbovar7lf8p5sgddm06cgipa2rxpe.json
+
+## Methodology 
+section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
+
+## Results
+results discussion
+
+## Conclusion
+blablabla
