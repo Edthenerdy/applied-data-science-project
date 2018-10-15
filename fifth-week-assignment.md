@@ -1,4 +1,5 @@
-# First Week Assignment – The Battle of the Neighborhoods
+# Fifth Week Assignment – The Battle of the Neighborhoods - Final Report
+
 
 ## Introduction & Business Problem:
 This work will be focused on creating and visualizing neighborhood's profiles, more specifically neighborhoods localized in boroughs in Toronto and New York City. These profiles will be based on the numbers and categories of venues present in each neighborhood in these cities, classifying each neighborhood based on statistical data and automated analysis using classification algorithms. Hopefully, these city profiles can give valuable insights about the life and economy of each region, making possible better-informed decision making for business and better public policymaking. Naturally, the target audience of this work are urban planners, policymakers, or urban services business looking to expand. This work is an extrapolation of the idea suggested in the assignment instructions.
