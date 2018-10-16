@@ -47,15 +47,26 @@ The "New York City, NY" dataframe has 5 boroughs and 302 neighborhoods, and the 
 
 #### Toronto Neighborhoods Visualization
 <a href="https://i.imgur.com/HnWkoig.png ">
-  <img src="https://i.imgur.com/HnWkoig.png" alt="Data Sample 2">
+  <img src="https://i.imgur.com/HnWkoig.png" alt="Toronto">
 </a>
 
-Departing from the same DataFrame, we now use the Foursquare API to collect venue data. Using the geographical coordinates of each neighborhood, API calls are made requesting the top 200 venues in a radius of 300 meters. The results are inserted in a new pandas dataframe, as presented in the following picture.
+Departing from the same DataFrame, we now use the Foursquare API to collect venue data. Using the geographical coordinates of each neighborhood, API calls are made requesting the top 200 venues in a radius of 1000 meters. The results are inserted in a new pandas dataframe, as presented in the following picture.
 
 <a href="https://i.imgur.com/e3pwKTw.png ">
   <img src="https://i.imgur.com/e3pwKTw.png" alt="Data Sample 3">
 </a>
 
+We generate geographical visualizations of the venue data as well, presented below in red dots. The "ny_venues" dataframe has 20537 venues and 466 unique venue types, and the "to_venues" dataframe has 9306 venues and 334 unique venue types. The proportion in number of venues are expected, considering the population and population density of these two cities.
+
+#### New York Venues Visualization
+<a href="https://i.imgur.com/dRJJXBE.png ">
+  <img src="https://i.imgur.com/dRJJXBE.png" alt="New York venues">
+</a>
+
+#### Toronto Venues Visualization
+<a href="https://i.imgur.com/COS36wu.png ">
+  <img src="https://i.imgur.com/COS36wu.png" alt="Toronto venues">
+</a>
 
 ## Results
 results discussion
