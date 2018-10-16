@@ -29,14 +29,33 @@ To decide the ideal neighborhood for the new business, we must classify the neig
 3 - "Going Out"
 After the necessary data preparation (collection, encoding and normalization) the neighborhoods will be clustered into three groups using the k-means clustering algorithm. To solve our business problem, the third cluster "Going Out" will be further studied, and the venue categories in these neighborhoods in this group will be expanded, to give insight in the kinds of places that do not already exist in these neighborhoods. The information can help our business sponsors decide what kind of restaurant or bar are lacking and are probbable bunsiness opportunities.
 ### Stage 3 - Data Requirements
-As stated in the Data & Tools section, the data requirements for this research are the venue information for each neighborhood in Toronto and New York City. Consequently, information about the neighborhoods (names and geographical coordinates) are also necessary .
-### Stage 4 - 
+As stated in the Data & Tools section, the data requirements for this research are the venue information for each neighborhood in Toronto and New York City. Consequently, information about the neighborhoods (names and geographical coordinates) are also necessary.
+### Stage 4 & 5 - Data Collection & Understanding
+The required data is collected in the first parts of the Jupyter Notebook. Toronto boroughs and neighborhoods are scrapped from the wikipedia link in [1] using the BeautifulSoup package, and the New York City boroughs and neighborhoods information is scrapped from the JSON file provided in [2].
+Then, with the neighborhood and borough names, and using the Google Geocode API, we extract the geographical coordinates of each neighborhood. At this point the data is organized in a Pandas DataFrame like the following:
 
+<a href="https://i.imgur.com/wSKFCbb.png ">
+  <img src="https://i.imgur.com/wSKFCbb.png" alt="Data Sample 2">
+</a>
 
+The "New York City, NY" dataframe has 5 boroughs and 302 neighborhoods, and the "Toronto, ON" dataframe has 11 boroughs and 210 neighborhoods. With the data collected at this point we can already visualize geographically each neighborhood using the Folium package to generate interactive Leaflet maps.
 
-The first step in the methodology used in this work was to prepare the provided data for a clustering algorithm, in our case the K-means algorithm. 
+#### New York Neighborhoods Visualization
+<a href="https://i.imgur.com/rPCQob4.png ">
+  <img src="https://i.imgur.com/rPCQob4.png" alt="New York">
+</a>
 
-section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
+#### Toronto Neighborhoods Visualization
+<a href="https://i.imgur.com/HnWkoig.png ">
+  <img src="https://i.imgur.com/HnWkoig.png" alt="Data Sample 2">
+</a>
+
+Departing from the same DataFrame, we now use the Foursquare API to collect venue data. Using the geographical coordinates of each neighborhood, API calls are made requesting the top 200 venues in a radius of 300 meters. The results are inserted in a new pandas dataframe, as presented in the following picture.
+
+<a href="https://i.imgur.com/e3pwKTw.png ">
+  <img src="https://i.imgur.com/e3pwKTw.png" alt="Data Sample 3">
+</a>
+
 
 ## Results
 results discussion
