@@ -20,6 +20,20 @@ We will focus on the venue category parameter, refining and clustering different
 [2] https://ibm.box.com/shared/static/fbpwbovar7lf8p5sgddm06cgipa2rxpe.json
 
 ## Methodology 
+### Stage 1 - Business Understanding
+As stated in the previous section of this report, our main goal is to create a reliable profile of the neighborhoods in New York City and Toronto. Our fictional business sponsors are two entrepeneurs, one looking to open a new restaurant in New York City and another one looking to open a new bar in Toronto.
+### Stage 2 - Analytic Approach
+To decide the ideal neighborhood for the new business, we must classify the neighborhoods into three main different kinds of regions based on the proportion of venue categories present in each one: 
+1 - Residential
+2 - Services
+3 - "Going Out"
+After the necessary data preparation (collection, encoding and normalization) the neighborhoods will be clustered into three groups using the k-means clustering algorithm. To solve our business problem, the third cluster "Going Out" will be further studied, and the venue categories in these neighborhoods in this group will be expanded, to give insight in the kinds of places that do not already exist in these neighborhoods. The information can help our business sponsors decide what kind of restaurant or bar are lacking and are probbable bunsiness opportunities.
+### Stage 3 - Data Requirements
+As stated in the Data & Tools section, the data requirements for this research are the venue information for each neighborhood in Toronto and New York City. Consequently, information about the neighborhoods (names and geographical coordinates) are also necessary .
+### Stage 4 - 
+
+
+
 The first step in the methodology used in this work was to prepare the provided data for a clustering algorithm, in our case the K-means algorithm. 
 
 section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
