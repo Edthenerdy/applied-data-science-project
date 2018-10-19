@@ -153,7 +153,40 @@ The general services distribution is somewhat similar between the two cities, bu
 
 With the previously encoded data, we will now aim to cluster the neighborhoods into five clusters, each one with different major characteristics. K-means clustering is the algorithm that will be used - this algorithm aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean. K-Means uses an iterative refinement technique, and it is also referred to as Lloyd's algorithm. In the next pictures we show how the five clusters are characterised, in terms of median percent share of each kind of neighborhood.
 
+##### Clusters in Toronto
 
+The Toronto city clusters are presented below.
+
+<a href="https://i.imgur.com/h6iI4yj.png">
+  <img src="https://i.imgur.com/h6iI4yj.png" alt="img2">
+</a>
+
+
+
+<a href="https://i.imgur.com/9IciPnZ.png">
+  <img src="https://i.imgur.com/9IciPnZ.png" alt="img2">
+</a>
+
+##### Clusters in New York City
+
+<a href="https://i.imgur.com/lTbor6T.png">
+  <img src="https://i.imgur.com/lTbor6T.png" alt="img2">
+</a>
+
+Cluster 0 aggregates neighborhoods with a near equal rate of restaurants, bars, and services venues, It is similar to Cluster 4 in the sense that the proportions are similar between these same three venue categories, except Cluster 4 have a bigger proportion of leisure, sports and cultural venues (probably indicating universities and schools present).
+
+Cluster 1 aggregates neighborhoods with a high prevalence of parks and nature, and also transportation infrastructure. There are services, restaurants and bars but they aren't a common occurence in these areas.
+
+Cluster 2 aggregates neighborhoods with a huge proportion of services, followed by restaurants and bars, indicating that these neighborhoods are probably commercial districts or city centers.
+
+Cluster 3 aggregates the largest proportion of restaurants and bars of all clusters, meaning that neighborhoods grouped in this cluster are important entities of study for our business problem related to restaurants and bars distribution.
+
+In the map below we can see the geographical visualization of the different types of clusters created using K-Means for New York City.
+The colors indicate the biggest proportional share of venue category (using the same legend from the pie charts, except for the yellow one that indicate Cluster 4).
+
+<a href="https://i.imgur.com/aBcXbkQ.png">
+  <img src="https://i.imgur.com/aBcXbkQ.png" alt="img2">
+</a>
 
 ## Results
 results discussion
