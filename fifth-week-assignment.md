@@ -89,10 +89,43 @@ In the image below we can see the number of subcategories inside each larger one
   <img src="https://i.imgur.com/8t4pEhs.png" alt="img1">
 </a>
 
+As it can be noted, New York City have slightly more variety of venues than Toronto. This is expected as the population in New York City is much larger than in Toronto, and also the number of neighborhoods.
 
-#### 
+#### Data Encoding
 
+The next important step is the preparation of the data for the clustering/classification algorithms we are going to use later. Usually, only numeric inputs are valid in these algorithms, so in this section of our Jupyter Notebook the dataframes with venue data collected and classified so far is encoded, creating a bigger dataframe following the model in the picture below:
 
+<a href="https://i.imgur.com/rko7EOJ.png">
+  <img src="https://i.imgur.com/rko7EOJ.png" alt="img2">
+</a>
+
+This data is then grouped for each Neighborhood, resulting in a dataframe with the number of venues in each category for each neighborhood. With this data prepared, we can generate several rich visualizations about the statistical venue makeup of New York and Toronto.
+
+#### Understanding the Data Collected so Far
+
+In this section we list some visualizations and distributions relevants to the topic of this work. First, a bar chart about the number of venues collected for each neighborhood and the correspondent distribution of neighborhoods based on the number of venues collected.
+
+<a href="https://i.imgur.com/Ht2pYOK.png">
+  <img src="https://i.imgur.com/Ht2pYOK.png" alt="img2">
+</a>
+
+<a href="https://i.imgur.com/halmwux.png">
+  <img src="https://i.imgur.com/halmwux.png" alt="img2">
+</a>
+
+As it can be noted, New York City have several neighborhoods with "100" venues. A curious detail is the fact that for some reason the Foursquare API returned only 100 venues for each neighborhood, even after declaring expicitly that we wanted 200 in the API request. Nevertheless, several neighborhoods do not have more than one hundred venues returned and this won't be a big problem for our objectives.
+
+##### Number of Restaurants Distribution in Each City
+
+Repeating the plots but only considering venues of the "Restaurant" category, we can have an idea about the number of these types of business in each city and also their distribution between different neighborhoods. Both cities have some neighborhoods with several restaurants, indicating that there are agglomerations 
+
+<a href="https://i.imgur.com/OOBMQCT.png">
+  <img src="https://i.imgur.com/OOBMQCT.png" alt="img2">
+</a>
+
+<a href="https://i.imgur.com/qbgJfiS.png">
+  <img src="https://i.imgur.com/qbgJfiS.png" alt="img2">
+</a>
 
 
 
