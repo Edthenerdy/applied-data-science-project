@@ -115,9 +115,9 @@ In this section we list some visualizations and distributions relevants to the t
 
 As it can be noted, New York City have several neighborhoods with "100" venues. A curious detail is the fact that for some reason the Foursquare API returned only 100 venues for each neighborhood, even after declaring expicitly that we wanted 200 in the API request. Nevertheless, several neighborhoods do not have more than one hundred venues returned and this won't be a big problem for our objectives.
 
-##### Number of Restaurants Distribution in Each City
+##### Restaurants Distribution in Each City
 
-Repeating the plots but only considering venues of the "Restaurant" category, we can have an idea about the number of these types of business in each city and also their distribution between different neighborhoods. Both cities have some neighborhoods with several restaurants, indicating that there are agglomerations 
+Repeating the plots but only considering venues of the "Restaurant" category, we can have an idea about the number of these types of business in each city and also their distribution between different neighborhoods. Both cities have some neighborhoods with several restaurants, indicating that there are agglomerations of business of the same kind at certain locations that will be further studied.
 
 <a href="https://i.imgur.com/OOBMQCT.png">
   <img src="https://i.imgur.com/OOBMQCT.png" alt="img2">
@@ -126,6 +126,32 @@ Repeating the plots but only considering venues of the "Restaurant" category, we
 <a href="https://i.imgur.com/qbgJfiS.png">
   <img src="https://i.imgur.com/qbgJfiS.png" alt="img2">
 </a>
+
+Comparing both distributions we can conclude that the restaurant business in New York City is much more saturated than in Toronto, as only few neighborhoods have been "taken" by these establishments.
+
+<a href="https://i.imgur.com/6xG4uJB.png">
+  <img src="https://i.imgur.com/6xG4uJB.png" alt="img2">
+</a>
+
+##### Bars and Clubs Distribution in Each City
+
+The Bars and Clubs distribution are much more different between Toronto and NYC. In NYC this kind of business seems also saturated, with lots of places distributed between several neighborhoods, while in Toronto there are much more inequality in bars and clubs distribution between the neighborhoods - In Toronto this kind of business is concentrated in few neighborhoods.
+
+<a href="https://i.imgur.com/PwujFnn.png">
+  <img src="https://i.imgur.com/PwujFnn.png" alt="img2">
+</a>
+
+##### General Services Distribution in Each City
+
+The general services distribution is somewhat similar between the two cities, but still following the same pattern than the previous ones - New York seems more saturated while in Toronto some neighborhoods have a deficiency of services.
+
+<a href="https://i.imgur.com/PLvEVIj.png">
+  <img src="https://i.imgur.com/PLvEVIj.png" alt="img2">
+</a>
+
+#### Neighborhood K-Means Clustering based on Mean Ocurrence of Each Venue Category
+
+With the previously encoded data, we will now aim to cluster the neighborhoods into five clusters, each one with different major characteristics. K-means clustering is the algorithm that will be used - this algorithm aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean. K-Means uses an iterative refinement technique, and it is also referred to as Lloyd's algorithm. In the next pictures we show how the five clusters are characterised, in terms of median percent share of each kind of neighborhood.
 
 
 
