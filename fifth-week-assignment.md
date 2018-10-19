@@ -149,11 +149,13 @@ The general services distribution is somewhat similar between the two cities, bu
   <img src="https://i.imgur.com/PLvEVIj.png" alt="img2">
 </a>
 
-#### Neighborhood K-Means Clustering based on Mean Ocurrence of Each Venue Category
+## Results
+
+### Neighborhood K-Means Clustering based on Mean Ocurrence of Each Venue Category
 
 With the previously encoded data, we will now aim to cluster the neighborhoods into five clusters, each one with different major characteristics. K-means clustering is the algorithm that will be used - this algorithm aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean. K-Means uses an iterative refinement technique, and it is also referred to as Lloyd's algorithm. In the next pictures we show how the five clusters are characterised, in terms of median percent share of each kind of neighborhood.
 
-##### Clusters in Toronto
+#### Clusters in Toronto
 
 The Toronto city clusters are presented below.
 
@@ -161,13 +163,25 @@ The Toronto city clusters are presented below.
   <img src="https://i.imgur.com/h6iI4yj.png" alt="img2">
 </a>
 
+Cluster 0 aggregates neighborhoods with a a huge proportion of restaurants, followed by bars and then services. The parks and nature proportiona share in this cluster is higher than similar clusters in New York, indicating few residential venues like closed residential buildings, and bigger parks and florested areas (as is expected in some parts of Toronto than in an urban sprawl like NYC).
 
+Cluster 1 aggregates neighborhoods with a huge proportional share of services (more than 50%!) indicating that neighborhoods classified in this cluster probably are commercial districts or city centers.
+
+Cluster 2 aggregates neighborhoods with a high prevalence of parks and nature, and also transportation infrastructure. There are services, restaurants and bars but they aren't a common occurence in these areas. Here we also have the neighborhoods with the highest proportional share of leisure, education, cultural, and sports venues (probably indicating some kind of university presence).
+
+Cluster 3 aggregates neighborhoods with balanced shares of restaurants, bars, clubs and leisure. This cluster also has the lowest parks and nature proportional share, indicating that neighborhoods in these areas are highly urbanized parts of the city, indicating high development.
+
+Cluster 4 aggregates the highest proportional share of bars and clubs in Toronto, indicating that these regions for some reason are attracting business related to nightlife and food. This cluster will be further analysed to answer our specified business problem.
+
+In the map below we can see the geographical visualization of the different types of clusters created using K-Means for Toronto. The colors indicate the biggest proportional share of venue category (using the same legend from the pie charts, except for the red one that indicate the balanced Cluster 3).
 
 <a href="https://i.imgur.com/9IciPnZ.png">
   <img src="https://i.imgur.com/9IciPnZ.png" alt="img2">
 </a>
 
-##### Clusters in New York City
+#### Clusters in New York City
+
+The New York City clusters are presented below.
 
 <a href="https://i.imgur.com/lTbor6T.png">
   <img src="https://i.imgur.com/lTbor6T.png" alt="img2">
@@ -188,8 +202,30 @@ The colors indicate the biggest proportional share of venue category (using the 
   <img src="https://i.imgur.com/aBcXbkQ.png" alt="img2">
 </a>
 
-## Results
-results discussion
-
 ## Conclusion
-blablabla
+
+After the study of the data presented, we selected some clusters of interest in each city.
+
+### Toronto Analysis
+
+For Toronto, we selected the clusters 3 and 4. The cluster 4 aggregates neighborhoods with high numbers of bars and good demand and accessibility for the public (suburban areas), indicating places with lower rents and property prices - relative to city center neighborhoods, of the also selected cluster 3. Cluster 3 groups the more urbanized and developed parts of Toronto, with several services category venues - making these areas great neighborhoods with high demand for restaurants, bars, nightclubs, etc. The list of neighborhoods in this cluster is presented below, and they basically form a list of places with well established business in the restaurant/bar/clubs segment. The optimal location for a new business in the restaurant or bar category can be further studied with the granular data about the specific themes of restaurants and bars. High demand signals high offerings and also higher competitivity, meaning that it's probably better to start a "new" kind of venue, in an untapped market in an underdeveloped or suburban area.
+
+#### Good neighborhoods for establishing new restaurant venues in Toronto (possible untapped markets):
+
+Richview Gardens, Roselawn, Rouge, Royal York South West, Scarborough Town Centre, Silverstone, Parkview Hill, Mimico NW, Mount Olive, Oriole, Maryvale, South Steeles, Wexford Heights, Wilson Heights, Woodbine Gardens, York Mills West, Wexford, Thorncliffe Park, Thistletown, South of Bloor, St. Phillips, Steeles West, The Beaches West, The Queensway West, Martin Grove Gardens, Cliffside West, Downsview North, Downsview Northwest, Downsview West, East Birchmount Park, Dorset Park, Albion Gardens, Bathurst Manor, Beaumond Heights, Bedford Park, Birch Cliff, Caledonia-Fairbanks, Cedarbrae, Jamestown, Kennedy Park, Kingsview Village, Kingsway Park South West, L'Amoreaux West, Lawrence Heights, Lawrence Manor, Lawrence Manor East, Leaside, Malvern, Ionview, India Bazaar, Glencairn, Henry Farm, Hillcrest Village, Humbergate, Fairview
+
+#### Good neighborhoods for restaurant venues in Toronto (probably saturated markets):
+
+Railway Lands, Silver Hills, York Mills, South Niagara, Bathurst Quay, CN Tower, King and Spadina, Lawrence Park, Island airport, Harbourfront West
+
+### New York City Analysis
+
+For NYC, we selected the clusters 0 and 4. The cluster 4 aggregates neighborhoods with high numbers of bars and good demand and accessibility for the public (suburban areas), indicating places with lower rents and property prices - relative to city center neighborhoods, of the also selected cluster 3. Cluster 3 groups the more urbanized and developed parts of Toronto, with several services category venues - making these areas great neighborhoods with high demand for restaurants, bars, nightclubs, etc. The list of neighborhoods in this cluster is presented below, and they basically form a list of places with well established business in the restaurant/bar/clubs segment. The optimal location for a new business in the restaurant or bar category can be further studied with the granular data about the specific themes of restaurants and bars. High demand signals high offerings and also higher competitivity, meaning that it's probably better to start a "new" kind of venue, in an untapped market in an underdeveloped or suburban area.
+
+#### Good neighborhoods for establishing new restaurant venues in Toronto (possible untapped markets):
+
+
+
+#### Good neighborhoods for restaurant venues in Toronto (probably saturated markets):
+
+
