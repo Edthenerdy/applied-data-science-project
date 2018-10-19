@@ -68,6 +68,34 @@ We generate geographical visualizations of the venue data as well, presented bel
   <img src="https://i.imgur.com/COS36wu.png" alt="Toronto venues">
 </a>
 
+#### Manually group Foursquare's venues categories found in New York City and Toronto
+
+The Venue Category data extracted with the Foursquare API is very granular, to facilitate the visualization of data the 334 unique types of venues in Toronto and the 466 unique types of venues in New York City will be grouped into eight larger categories:
+
+ <ul>
+  <li>Bars and Clubs</li>
+  <li>Restaurants</li>
+  <li>General Services</li>
+  <li>Leisure & Sports</li>
+  <li>Culture & Education</li>
+  <li>Parks & Nature</li>
+  <li>Transportation Infrastructure</li>
+  <li>Residential</li>
+</ul> 
+
+In the image below we can see the number of subcategories inside each larger one. This classification was made by hand, as the Foursquare API do not provide hierarchical category information.
+
+<a href="https://i.imgur.com/8t4pEhs.png">
+  <img src="https://i.imgur.com/8t4pEhs.png" alt="img1">
+</a>
+
+
+#### 
+
+
+
+
+
 ## Results
 results discussion
 
