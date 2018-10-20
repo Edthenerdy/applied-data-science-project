@@ -202,8 +202,6 @@ The colors indicate the biggest proportional share of venue category (using the 
   <img src="https://i.imgur.com/aBcXbkQ.png" alt="img2">
 </a>
 
-## Conclusion
-
 After the study of the data presented, we selected some clusters of interest in each city.
 
 ### Toronto Analysis
@@ -214,18 +212,40 @@ For Toronto, we selected the clusters 3 and 4. The cluster 4 aggregates neighbor
 
 Richview Gardens, Roselawn, Rouge, Royal York South West, Scarborough Town Centre, Silverstone, Parkview Hill, Mimico NW, Mount Olive, Oriole, Maryvale, South Steeles, Wexford Heights, Wilson Heights, Woodbine Gardens, York Mills West, Wexford, Thorncliffe Park, Thistletown, South of Bloor, St. Phillips, Steeles West, The Beaches West, The Queensway West, Martin Grove Gardens, Cliffside West, Downsview North, Downsview Northwest, Downsview West, East Birchmount Park, Dorset Park, Albion Gardens, Bathurst Manor, Beaumond Heights, Bedford Park, Birch Cliff, Caledonia-Fairbanks, Cedarbrae, Jamestown, Kennedy Park, Kingsview Village, Kingsway Park South West, L'Amoreaux West, Lawrence Heights, Lawrence Manor, Lawrence Manor East, Leaside, Malvern, Ionview, India Bazaar, Glencairn, Henry Farm, Hillcrest Village, Humbergate, Fairview
 
-#### Good neighborhoods for restaurant venues in Toronto (probably saturated markets):
+#### Good neighborhoods for restaurant venues in Toronto (but probably saturated markets):
 
 Railway Lands, Silver Hills, York Mills, South Niagara, Bathurst Quay, CN Tower, King and Spadina, Lawrence Park, Island airport, Harbourfront West
 
 ### New York City Analysis
 
-For NYC, we selected the clusters 0 and 4. The cluster 4 aggregates neighborhoods with high numbers of bars and good demand and accessibility for the public (suburban areas), indicating places with lower rents and property prices - relative to city center neighborhoods, of the also selected cluster 3. Cluster 3 groups the more urbanized and developed parts of Toronto, with several services category venues - making these areas great neighborhoods with high demand for restaurants, bars, nightclubs, etc. The list of neighborhoods in this cluster is presented below, and they basically form a list of places with well established business in the restaurant/bar/clubs segment. The optimal location for a new business in the restaurant or bar category can be further studied with the granular data about the specific themes of restaurants and bars. High demand signals high offerings and also higher competitivity, meaning that it's probably better to start a "new" kind of venue, in an untapped market in an underdeveloped or suburban area.
+For NYC, we selected the clusters 0 and 4. The cluster 4 aggregates neighborhoods with high but balanced proportions of services, restaurants, and bars/clubs. Comparing cluster 4 with cluster 0, that aggregates city center neighborhoods with very high proportional share of restaurants and also relatively high proportion of services, we can notice that cluster 4 is behind cluster 0 in the gentrification, or urban development process. This information can be used to plan the best locations for a restaurant business based on the intentions of our business sponsor: does he want to open a restaurant in some place with high demand, but also high price of entry or he wants to bet in a place with less entrenched competitiors and also good demand? We list the possible neighborhoods for each group in the next subsection.
 
-#### Good neighborhoods for establishing new restaurant venues in Toronto (possible untapped markets):
+#### Good neighborhoods for establishing new restaurant venues in NYC (not so much competition and good demand - "safe bets"):
 
+Oakland Gardens, North Side, North Riverdale, North Corona, Noho, Prospect Heights, Pelham Parkway, New Brighton, Murray Hill, Manhattanville, Manhattan Valley, Manhattan Beach, Lower East Side, Murray Hill, Morningside Heights, Midtown South, Ravenswood, Upper West Side, Turtle Bay, Tudor City, Tottenville, Throgs Neck, Sunnyside Gardens, Williamsburg, Whitestone, West Village, West Brighton, Sunnyside, Stuyvesant Town, Roosevelt Island, Rockaway Beach, Riverdale, Ridgewood, Schuylerville, Sheepshead Bay, Steinway, South Side, South Ozone Park, City Island, Chinatown, Central Harlem, Bushwick, Clifton, Clinton Hill, Bayside, Bay Ridge, Astoria, Annadale, Bedford Stuyvesant, Briarwood, Bergen Beach, Woodside, Hamilton Heights, Great Kills, Gramercy, Kingsbridge, Jackson Heights, Inwood, Hunters Point, Elmhurst, Edgewater Park, East Village, East Harlem, Fieldston, Fort Hamilton, Fort Greene, Forest Hills Gardens, Flushing, Flatbush, Yorkville
 
+#### Good neighborhoods for establishing new clubs and bars in NYC (not so much competition and good demand - "safe bets"):
 
-#### Good neighborhoods for restaurant venues in Toronto (probably saturated markets):
+Ozone Park, New Springville, New Dorp Beach, New Dorp, Queens Village, Pleasant Plains, Malba, Lindenwood, Marine Park,  Mount Hope, Morrisania, Mill Basin, Middle Village, Maspeth, Westerleigh, Rosedale, Richmond Valley, Sea Gate, Starrett City, South Jamaica, Soundview, Lefrak City, Charleston, Castle Hill, Co-op City, Baychester, Bay Terrace, Arlington, Bellerose, Bloomfield, Heartland Village, Holliswood, Hunts Point, Glendale, Elm Park, Eastchester, East Flatbush, Erasmus, Georgetown, Floral Park
 
+#### Good neighborhoods for restaurant venues in NYC (but probably saturated markets - entrenched business):
 
+Allerton, Olinville, Old Town, Ocean Parkway, Ocean Hill, Norwood, New Lots, Paerdegat Basin, Park Hill, Parkchester, Queensboro Hill, Prospect Park South, Prospect Lefferts Gardens, Prince's Bay, Port Richmond, Park Slope, Manhattan Terrace, Madison, Longwood, Little Neck, Mariner's Harbor, Melrose, Mount Eden, Mott Haven, Morris Park, Midwood, Rego Park, Utopia, University Heights, Unionport, Tribeca, Sutton Place, Sunset Park, Washington Heights, Woodhaven, Williamsbridge, Westchester Square, Weeksville, Wakefield, Rugby, Rosebank, Rochdale, Richmond Hill, Remsen Village, St. Albans, Spuyten Duyvil, Soho, Laurelton, City Line, Canarsie, Cambria Heights, Civic Center, Dongan Hills, Ditmas Park, Cypress Hills, Corona, Concord, College Point, Brownsville, Bay Terrace, Bath Beach, Auburndale, Bayswater, Bronxdale, Borough Park, Douglaston, Bensonhurst, Belmont, Bellaire, Hillcrest, Highland Park, Greenwich Village, Greenridge, Grasmere, Grant City, Graniteville, Hollis, Howard Beach, Kew Gardens Hills, Kensington, Jamaica Hills, Jamaica Estates, Jamaica Center, Homecrest, Glen Oaks, Eltingville, Edenwald, East Tremont, East New York, Far Rockaway, Fresh Meadows, Fordham, Flatlands, Flatiron, Forest Hills
+
+### Refining the results
+
+From all the cities listed above, we can interact with the charts generated with Plotly in the Jupyter Notebook of this project and analyze the absolute number of restaurants and bars. Assuming that fewer restaurants are indicative of possible market opportunities we can refine the lists of clustered neighborhoods provided above:
+
+#### Best Neighborhoods for Restaurants in Toronto
+
+CN Tower, Lawrence Park, Mimico NW, Mount Olive, L'Amoreaux West, Fairview, St. Phillips, Royal York South West, Scarborough Town Centre.
+
+#### Best Neighborhoods for Restaurants in NYC
+
+Ozone Park,  Queens Village, Charleston, Old Town, Ocean Parkway, and Forest Hills.
+
+## Conclusion
+
+We finish this report with the conclusions of the study: a lot of assumptions are made to arrive at the final refined results. These assumptions can probably be wrong, and further study with more data must be taken to verify the quality of, or if any of the correlations really exist. Nevertheless our assumptions are simple and seem to be right: if there is a lot of restaurants in some area, it is probably because exists demand in this place. However, the market can also be saturated, or a very expensive area - considerations that our business sponsor must take into account when deciding where he will open his new restaurant. Because of these doubts, we researched two main types of neighborhoods: neighborhoods with high concentration of restaurant business (high competitivity) and also neighborhoods with good number of restaurants (indicating that some kind of demand exists) but not so many restaurants to make competition a problem. 
+
+The business sponsor can safely choose one of the neighborhoods listed as best. For a more comprehensive decision, the specific venue type (if it is a brazilian restaurant, or persian one, etc.) can be checked - and the venue with the lowest competition can be choosed accordingly.
